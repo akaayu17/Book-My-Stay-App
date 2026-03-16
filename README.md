@@ -11,7 +11,9 @@ Rather than treating data structures as isolated academic topics, this system de
 The main objective of this project is to illustrate how Core Java concepts and data structures can be used to design a scalable and maintainable reservation system.
 The system demonstrates:
 Fair request handling using FIFO principles
+
 Real-time inventory tracking across booking operations
+
 Prevention of double booking using uniqueness enforcement
 Extensible architecture that mirrors real production systems
 
