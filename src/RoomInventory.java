@@ -2,7 +2,6 @@ import java.util.Map;
 
 /**
  *
- * *
  * * CLASS - RoomInventory
  * * Use Case 3: Centralized Room Inventory Management
  * * Description:
