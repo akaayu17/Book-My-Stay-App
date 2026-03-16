@@ -14,7 +14,7 @@
  * author: Aayusha Kuikel
  * @version 2.0
  */
- abstract class Room {
+abstract class Room {
     protected int numberOfBeds;
     protected int squareFeet;
     protected double pricePerNight;
@@ -32,39 +32,36 @@
         System.out.println("Price Per Night: " + pricePerNight);
     }
 }
-     class SingleRoom extends Room{
-         public SingleRoom(){
-             super(1,250,1500.0);
+class SingleRoom extends Room{
+    public SingleRoom(){
+        super(1,250,1500.0);
 
-         }
-     }
-      class DoubleRoom extends Room{
-         public DoubleRoom(){
-             super(2,400,2500.0);
+    }
+}
+class DoubleRoom extends Room{
+    public DoubleRoom(){
+        super(2,400,2500.0);
 
-         }
-     }
-      class SuiteRoom extends Room{
-         public SuiteRoom(){
-             super(3,750,5000.0);
-         }
-     }
-     public class Rooms{
-        public static void main(String[]args){
+    }
+}
+class SuiteRoom extends Room{
+    public SuiteRoom(){
+        super(3,750,5000.0);
+    }
+}
+public class Rooms{
+    public static void main(String[]args){
 
-            System.out.println("Hotel Room Initialization");
-            System.out.println("\nSingle Room:");
-            SingleRoom singleroom =new SingleRoom();
-            singleroom.displayRoomDetails();
-            System.out.println("\nDouble Room:");
-            DoubleRoom doubleroom = new DoubleRoom();
-            doubleroom.displayRoomDetails();
-            System.out.println("\nSuite Room:");
-            SuiteRoom suiteroom=new SuiteRoom();
-            suiteroom.displayRoomDetails();
+        System.out.println("Hotel Room Initialization");
+        System.out.println("Single Room:");
+        SingleRoom singleroom =new SingleRoom();
+        singleroom.displayRoomDetails();
+        System.out.println("\nDouble Room:");
+        DoubleRoom doubleroom = new DoubleRoom();
+        doubleroom.displayRoomDetails();
+        System.out.println("\nSuite Room:");
+        SuiteRoom suiteroom=new SuiteRoom();
+        suiteroom.displayRoomDetails();
 
-        }
-     }
-
-
-
+    }
+}
