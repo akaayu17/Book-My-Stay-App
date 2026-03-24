@@ -11,7 +11,7 @@
  *
  * At this stage, a reservation only captures intent,
  * not confirmation or room allocation.
- * @author Aayusha Kuike
+ * @author Aayusha Kuikel
  * @version 5.0
  */
 import java.util.LinkedList;
