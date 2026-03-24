@@ -53,6 +53,7 @@ public class Rooms{
     public static void main(String[]args){
 
         System.out.println("Hotel Room Initialization");
+
         System.out.println("Single Room:");
         SingleRoom singleroom =new SingleRoom();
         singleroom.displayRoomDetails();
