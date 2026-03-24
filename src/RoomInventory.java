@@ -27,18 +27,22 @@ class Inventory{
 
 
     }
+
+
+
     private void initializeInventory(){
         roomAvailability.put("Single Room",5);
         roomAvailability.put("Double Room",3);
         roomAvailability.put("Suite Room",2);
     }
-    public  Map<String , Integer>getRoomAvailability(){
+    public   Map<String , Integer>getRoomAvailability(){
 
         return roomAvailability;
     }
 
 }
 public class RoomInventory{
+
     public static void main (String [] args){
         SingleRoom singleRoom = new SingleRoom();
         DoubleRoom doubleRoom=new DoubleRoom();
@@ -55,6 +59,8 @@ public class RoomInventory{
         System.out.println("Available: "+inventory.getRoomAvailability().get("Suite Room"));
 
     }
+
+
 }
 
 
